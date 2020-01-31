@@ -1,0 +1,26 @@
+h1{
+text-align: center;
+}
+p{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+body{
+    background-image: url("Milano.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul{
+    display: none;
+}
+
+p:hover ~ ul {
+    display: initial;
+}
+p {
+    font-weight: bold;
+    font-size: larger;
+}
