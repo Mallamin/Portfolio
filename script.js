@@ -25,7 +25,7 @@ let ADDRESS=STREET_NAME+"," +" " + CIVIC_NUMBER+" "+ NEW_LINE + ZIP_CODE+" "+CIT
 let admin
 let name= "John"
 admin=name
-alert(admin)
+//alert(admin)
 
 //Template StringFollowing
 
@@ -77,6 +77,15 @@ Soft Skills
 ${SOFT_SKILLS1} 
 ${SOFT_SKILLS2} 
 ${SOFT_SKILLS3}`
+
+console.log (CV)
+const x= 7
+const y=1
+const a= x+y
+console.log (a)
+
+
+
 
 
 
