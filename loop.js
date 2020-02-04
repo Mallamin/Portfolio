@@ -14,9 +14,9 @@ while (i<3) {
 //Test its value against 0
 //Print the value and decrement it
 
-let i=3;
-while (i>0) { console.log(i);
-    i--;
+let x=3;
+while (x>0) { console.log(x);
+    x--;
 
 }
 
@@ -31,8 +31,13 @@ while (i>0) { console.log(i);
  let Z=0;
  while (Z<16) {
      console.log("Na");
-
+Z++
        
 }
 console.log("Batman!")
 // later look up Anthony's solutions for more inspirations
+
+//translate while loops to for loops (changed the first exercise)
+for(let j=0;j<3;j++) {
+    console.log(j)
+}
