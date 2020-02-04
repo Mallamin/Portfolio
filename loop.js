@@ -37,7 +37,14 @@ Z++
 console.log("Batman!")
 // later look up Anthony's solutions for more inspirations
 
-//translate while loops to for loops (changed the first exercise)
+//Changing while loops to for loops (changed the first exercise)
 for(let j=0;j<3;j++) {
     console.log(j)
+}
+
+//Changing for loops to while loops (by reodering the foregoing)
+let h=0
+while (h<3){
+    console.log(h)
+    h++
 }
