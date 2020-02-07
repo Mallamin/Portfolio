@@ -1,3 +1,5 @@
+/*
+
 // variable called i that was initialised as 0
 //while loop tested i against 3
 // the body loop alerted i (console.log) and incremented i
@@ -25,7 +27,7 @@ while (x>0) { console.log(x);
 "Na Na Na Na Na ... Batman!"
   The string should be built by looping 16 times, 
  and at the end of the loop I want to print the result to the console
- */
+ 
 
  
  let Z=0;
@@ -48,3 +50,53 @@ while (h<3){
     console.log(h)
     h++
 }
+
+  ///////////////////////////////////////  
+///for (var o=0; o<Infinity;) 
+{
+    while (o>100) console.log ("Yes") 
+    
+    while (o<100) console.log ("Try again")
+     
+}
+// Antony's Explanation
+while (!reachedTheDoor) {
+    continueWalking();
+}
+openThenDoor();
+*/
+
+// // Print all the multiples of 20 from 0 to 100
+// for (let l=0; l<=5;l++) {  
+//     console.log(l*20);
+// }
+// // Print all the multiples of 20 from 100 to 0
+// for (let m=0;m>=5;m--){
+//     console.log(m/100)
+// }
+
+// Print all the multiples of 20 from 0 to 100
+// - print multiples of 20
+// - from 0
+// - to 100
+for (let r = 0; r<=100; r++) {
+    let isDivisible = r % 20===0;
+    if (isDivisible){
+        console.log(r);
+    }
+
+}
+
+// print all numbers from 1 to 10
+// for (let i = 1; i <= 10; i+=1) {
+//     console.log(i);
+// }
+
+// print the sum of all numbers from 1 to 5
+// 1 2 3 4 5 -> sum = 15
+let total=0
+for (let i=0;i<=5; i++){
+total+=i}
+console.log(total)
+
+
