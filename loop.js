@@ -96,15 +96,16 @@ openThenDoor();
 // print the sum of all numbers from 1 to 5
 // 1 2 3 4 5 -> sum = 15
 
-let total=0
-for (let i=0;i<=5; i++){
-total+=i}
-console.log(total)
+// let total=0
+// for (let i=0;i<=5; i++){
+// total+=i}
+// console.log(total)
 
 //The sum of all the numbers from 1 to 8
 let total=0
 for (let n=0;n<=8;n++){
-    total +=n
-    console.log(total)
-  
+
+  total +=n
+   
 }
+console.log(total)
