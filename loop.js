@@ -79,13 +79,14 @@ openThenDoor();
 // - print multiples of 20
 // - from 0
 // - to 100
-for (let r = 0; r<=100; r++) {
-    let isDivisible = r % 20===0;
-    if (isDivisible){
-        console.log(r);
-    }
 
-}
+//for (let r = 0; r<=100; r++) {
+   // let isDivisible = r % 20===0;
+   // if (isDivisible){
+   //     console.log(r);
+    //}
+
+//}
 
 // print all numbers from 1 to 10
 // for (let i = 1; i <= 10; i+=1) {
@@ -94,9 +95,16 @@ for (let r = 0; r<=100; r++) {
 
 // print the sum of all numbers from 1 to 5
 // 1 2 3 4 5 -> sum = 15
+
 let total=0
 for (let i=0;i<=5; i++){
 total+=i}
 console.log(total)
 
-
+//The sum of all the numbers from 1 to 8
+let total=0
+for (let n=0;n<=8;n++){
+    total +=n
+    console.log(total)
+  
+}
