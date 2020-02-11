@@ -122,5 +122,16 @@ function emptyRow (n){
 let M = 5
 console.log(fullRow (M))   
 console.log(emptyRow(M))   
-console.log(fullRow(M))   
+console.log(fullRow(M)) 
+
+
+/* BuildTriangle (rows)
+      *
+     ***
+    *****
+   *******
+
+*/
+
+//Solution
 
