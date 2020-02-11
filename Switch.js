@@ -61,7 +61,7 @@ switch (browser) {
 }
 
 //Solution
-let browser="Edge"
+let browser;
 
 if (browser==="Edge") {
     console.log("You've got the Edge!")
@@ -79,6 +79,8 @@ console.log("Okay we support these browsers too")
 //Rewrite the code below using a single switch statement:
 
 let a = +prompt('a?', '');
+
+
 
 if (a == 0) {
   alert( 0 );
