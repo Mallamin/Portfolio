@@ -78,17 +78,17 @@
     for (let i = 0; i < columns; i++) {
       row += '*';
     }
-    return row;
+    return row + "\n";
 }
 
-function buildButton(rows, columns) {
-    let button = "";
-    for (let e=0; e< rows; e++){
-        button += buildRow(columns) + "\n"
+// function buildButton(rows, columns) {
+//     let button = "";
+//     for (let e=0; e< rows; e++){
+//         button += buildRow(columns) + "\n"
    
-    }
-    return (button)
-} 
+//     }
+//     return (button)
+// } 
 
 /* 
    Exercise         
@@ -105,26 +105,29 @@ function buildButton(rows, columns) {
 //    2. all other rows in between are always 'empty'
 
 //Solution
-function fullRow(n){
-    let row="";
-    for(let i=0;i<n;i++)
+// function fullRow(n){
+//     let row="";
+//     for(let i=0;i<n;i++)
 
-        row+= "*"
-    return row
-}
+//         row+= "*"
+//     return row
+// }
 function emptyRow (n){
     let row="*";
     for(let i=0;i<n-2;i++)
 
         row+= " "
-    return row+"*"
+    return row+"*"+"\n"
 }
-let M = 5
-console.log(fullRow (M))   
-console.log(emptyRow(M))   
-console.log(fullRow(M)) 
 
+// function buildEmptyButton(rows, columns) {
+//     // console.log(fullRow (columns))   
+//     // console.log(emptyRow(columns))   
+//     // console.log(emptyRow(columns))   
+//     // console.log(fullRow(columns)) 
+// }
 
+console.log(buildRow(5)  + emptyRow(5) + emptyRow(5)  + buildRow(5))
 /* BuildTriangle (rows)
       *
      ***
@@ -135,3 +138,6 @@ console.log(fullRow(M))
 
 //Solution
 
+// function buildTriangle(rows) {
+
+// }
