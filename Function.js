@@ -68,18 +68,19 @@
 //   }
 
 //   // Exercise (Buttons)
-//   /* *****
-//    * ****
-//     *****
+//   /* 
+//    *****
+//    *****
+//    *****
 //   */
 
- function buildRow(columns) {
-    let row = '';
-    for (let i = 0; i < columns; i++) {
-      row += '*';
-    }
-    return row + "\n";
-}
+//  function buildRow(columns) {
+//     let row = '';
+//     for (let i = 0; i < columns; i++) {
+//       row += '*';
+//     }
+//     return row + "\n";
+// }
 
 // function buildButton(rows, columns) {
 //     let button = "";
@@ -112,13 +113,13 @@
 //         row+= "*"
 //     return row
 // }
-function emptyRow (n){
-    let row="*";
-    for(let i=0;i<n-2;i++)
+// function emptyRow (n){
+//     let row="*";
+//     for(let i=0;i<n-2;i++)
 
-        row+= " "
-    return row+"*"+"\n"
-}
+//         row+= " "
+//     return row+"*"+"\n"
+//}
 
 // function buildEmptyButton(rows, columns) {
 //     // console.log(fullRow (columns))   
@@ -127,8 +128,8 @@ function emptyRow (n){
 //     // console.log(fullRow(columns)) 
 // }
 
-console.log(buildRow(5)  + emptyRow(5) + emptyRow(5)  + buildRow(5))
-/* BuildTriangle (rows)
+//console.log(buildRow(5)  + emptyRow(5) + emptyRow(5)  + buildRow(5))
+/* BuildTriangle (rows)(Pyramid)
       *
      ***
     *****
@@ -136,8 +137,51 @@ console.log(buildRow(5)  + emptyRow(5) + emptyRow(5)  + buildRow(5))
 
 */
 
-//Solution
+//Solution (Pyramid)
 
-// function buildTriangle(rows) {
+/*buildTriangle (4)
 
-// }
+ function buildTriangle(rows) {
+    let rws= "*"
+    let space= (rws-2)
+    let asterisks= "*"
+    for (H=0;H< rws;H++){
+        console.log(space+asterisk)
+        space= space (-2)
+    }
+}*/
+
+// funct
+// let calcAreaFootballField = function(width, height) {
+//     return width * height;
+//   }
+  
+//   console.log(calcAreaFootballField(50,100));
+
+
+/*
+
+buildBox(rows, columns):
+
+*****
+*****
+*****
+
+buildRow(columns):
+
+*****
+
+*/
+
+function buildRows(n){
+        let row="";
+      for(let i=0;i<n;i++)
+    
+           row+= "*"
+       
+       console.log(row)
+
+    }
+
+buildRows(5)
+
