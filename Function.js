@@ -8,7 +8,6 @@
 //     console.log(`Hello ${Who}!`)
 // }
 
-
 // /*Context: Devil May Cry
 // Stylish Ranking
 
@@ -18,7 +17,7 @@
 // 15 = Awesome!
 // 20 = Stylish
 
-// Create a function that, given the amount of damage you 
+// Create a function that, given the amount of damage you
 // inflict to enemies, will return the related stylish ranking string.
 
 // Hint: use the switch statement
@@ -26,7 +25,7 @@
 
 // //Solution
 // function getStylishRanking(Damage) {
-        
+
 // let W= Damage
 
 // switch (W) {
@@ -44,7 +43,7 @@
 //         break
 //     case 20:
 //         console.log("Stylish")
-        
+
 //  }
 // }
 
@@ -68,7 +67,7 @@
 //   }
 
 //   // Exercise (Buttons)
-//   /* 
+//   /*
 //    *****
 //    *****
 //    *****
@@ -86,10 +85,10 @@
 //     let button = "";
 //     for (let e=0; e< rows; e++){
 //         button += buildRow(columns) + "\n"
-   
+
 //     }
 //     return (button)
-// } 
+// }
 
 /* 
    Exercise         
@@ -122,10 +121,10 @@
 //}
 
 // function buildEmptyButton(rows, columns) {
-//     // console.log(fullRow (columns))   
-//     // console.log(emptyRow(columns))   
-//     // console.log(emptyRow(columns))   
-//     // console.log(fullRow(columns)) 
+//     // console.log(fullRow (columns))
+//     // console.log(emptyRow(columns))
+//     // console.log(emptyRow(columns))
+//     // console.log(fullRow(columns))
 // }
 
 //console.log(buildRow(5)  + emptyRow(5) + emptyRow(5)  + buildRow(5))
@@ -155,9 +154,8 @@
 // let calcAreaFootballField = function(width, height) {
 //     return width * height;
 //   }
-  
-//   console.log(calcAreaFootballField(50,100));
 
+//   console.log(calcAreaFootballField(50,100));
 
 /*
 
@@ -173,15 +171,11 @@ buildRow(columns):
 
 */
 
-function buildRows(n){
-        let row="";
-      for(let i=0;i<n;i++)
-    
-           row+= "*"
-       
-       console.log(row)
+function buildRows(n) {
+  let row = ''
+  for (let i = 0; i < n; i++) row += '*'
 
-    }
+  console.log(row)
+}
 
 buildRows(5)
-
