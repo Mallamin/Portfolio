@@ -53,12 +53,17 @@ let owner = {
   height: '1m',
 }
 
+let emptyObj = {}
+
 function isEmpty(objectFromOutside) {
-  for (let property in objectFromOutside) {
-    return false
+  let isEmpty = true // assume that the object is empty
+  for (let key in objectFromOutside) {
+    // I was wrong, the object is not empty!
+    isEmpty = false
   }
-  return true
+  // return whatever value I found
+  return isEmpty
 }
 
-let result = isEmpty(owner)
+let result = isEmpty(emptyObj)
 console.log(result)
