@@ -19,4 +19,3 @@ if (bmi >= 0 && bmi < 18.5) {
 } else {
   console.log(bmi, 'overweight')
 }
-
