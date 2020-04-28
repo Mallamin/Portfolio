@@ -20,9 +20,3 @@ if (bmi >= 0 && bmi < 18.5) {
   console.log(bmi, 'overweight')
 }
 
-function myUser(userHeight, userWeight) {
-  var userHeight = 1(Math.unit, m)
-  var userWeight = 60(math.unit, kg)
-
-  return userWeight / (userHeight * 2)
-}
